@@ -1,7 +1,7 @@
 # SLAM-Using-Scan-Matching
 
 ## Description 
- This Project Developed by Sina Shahsavari alonge side Pulak Sarangi and Hadi Givechian. on Robot Localization using Scan Matching
+ This Project Developed by Sina Shahsavari alonge side Pulak Sarangi and Hadi Givechian. In this project we have considered a scenario in which a mobile agent is located in an unknown environment. Our goal is to  a robustly and accurately estimate its location as well as tracking the trajectory it traverses. To realize this goal, we have implemented PL-ICP algorithm to estimates relative rotation and translation of the agent and then determine its trajectory. To enhance the performance of the algorithm,  we have employed several approaches, such as outlier detection module and different mechanisms for initialization.
 
 
 
@@ -12,6 +12,7 @@ Localizing an agent in an unknown environment has received lots of attention fro
 
 ## For more details please read our final paper 
 - https://github.com/Sinashahsavari/SLAM-Using-Scan-Matching/blob/master/SLAM%20Using%20Scan%20Matching.pdf
+
 
 ## Requirements and Usage
 Matlab Navigation Toolbox
