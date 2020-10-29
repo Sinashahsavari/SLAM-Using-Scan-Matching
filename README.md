@@ -1,2 +1,7 @@
 # SLAM-Using-Scan-Matching
  Project on Robot Localization using Scan Matching
+
+
+Localizing an agent in an unknown environment has received lots of attention from both industry and academia for years. A variety of sensors have been built in autonomous cars and robots to enable localization. Lidar sensors, in particular, provide dense and accurate point clouds. A variety of algorithms have been proposed to exploit these Lidar scans to localize the agent. Iterative Closest Point (ICP) family can estimate the pose variation of the agent between two different scans which can be further used to localize the agent given the starting point. In this work, we implement the PL-ICP algorithm to localize the agent. Moreover, we found PL-ICP sometimes does not estimate pose variation on real-world data correctly which can devastate the estimated trajectory. To mitigate this problem, we propose a simple yet effective outlier rejection mechanism which improves the pose estimation. Furthermore, it turns out that PL-ICP is highly sensitive to initialization. To this end, we incorporate an initialization mechanism to the algorithm to avoid unreasonable estimates. We extensively evaluate our implementation and modifications to the algorithm on both synthetic and real-world data (Oxford robotcar dataset) and compare our results with the scan matching implementation provided in the Matlab navigation toolbox.
+
+
